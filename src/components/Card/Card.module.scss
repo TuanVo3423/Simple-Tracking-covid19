@@ -1,0 +1,17 @@
+.comfirmed {
+  border-left: 5px solid #c9302c;
+}
+.recovered {
+  border-left: 5px solid #28a745;
+}
+.deaths {
+  border-left: 5px solid gray;
+}
+body .title {
+  font-size: 18px;
+  margin-top: 5px;
+}
+body .count {
+  font-size: 18px;
+  font-weight: bold;
+}

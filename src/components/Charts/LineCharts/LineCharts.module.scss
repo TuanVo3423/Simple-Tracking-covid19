@@ -1,0 +1,15 @@
+body .wrapper {
+  display: flex;
+  justify-content: flex-end;
+  .btn-all,
+  .btn-month,
+  .btn-day {
+    color: rgba(0, 0, 0, 0.87);
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    border-right-color: unset;
+  }
+  .active {
+    color: #f50057;
+    border: 1px solid #f50057;
+  }
+}
