@@ -56,6 +56,9 @@ const Mapchart = ({ data }) => {
           text: data.title,
         },
         series: [{ ...initOptions.series[0], mapData: data, data: fakeData }],
+        accessibility: {
+          enabled: false,
+        },
       }));
 
       if (!configLoaded) setConfigLoaded(true);

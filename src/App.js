@@ -40,7 +40,7 @@ function App() {
   }, [selectedCountryId, countries]);
   return (
     <Container style={{ marginTop: 20 }}>
-      <Typography component={"h2"} variant={"h2"}>
+      <Typography component={"h2"} variant={"h2"} style={{ marginBottom: 10 }}>
         Số liệu COVID-19
       </Typography>
       <Typography
